@@ -110,4 +110,4 @@ Vercel frontend:
 - Root directory: `frontend`
 - Build command: `npm run build`
 - Output directory: `dist`
-- Environment: `VITE_API_URL`
+- Environment: `VITE_API_URL=https://ethera-inventory-backend.onrender.com`
