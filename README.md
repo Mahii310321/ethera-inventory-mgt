@@ -103,7 +103,7 @@ Render backend:
 - Root directory: `backend`
 - Build command: `pip install -r requirements.txt`
 - Start command: `alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-- Environment: `DATABASE_URL`, `CORS_ORIGINS`
+- Environment: `DATABASE_URL`, `CORS_ORIGINS=["https://ethera-inventory-mgt.vercel.app","http://localhost:5173"]`
 
 Vercel frontend:
 
